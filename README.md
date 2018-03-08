@@ -1,2 +1,2 @@
-![header](/img/mock1.png)
+![header](/images/mock1.png)
 
