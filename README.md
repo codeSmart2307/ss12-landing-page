@@ -1,1 +1,2 @@
-"# ss12-landing-page" 
+![header](/img/mock1.png)
+
