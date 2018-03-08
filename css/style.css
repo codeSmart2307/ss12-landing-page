@@ -1,23 +1,39 @@
 .card-group {
-  margin-top: 45px !important;
+  margin-top: 45px !important;  
 }
-
 .card {  
-  border-radius: 0 !important;
+  border-radius: 0px !important;
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
 }
-
 #card-1 {
   margin-top: 150px;
 }
-
 #card-2 {
   margin-top: 100px; 
 }
-
 #card-3 {
   margin-top: 50px; 
 }
-
 #card-4 {
-  
+  border-right: 0px !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-group {
+    text-align: center !important; 
+    margin: 0 auto !important;
+  }  
+  .card {
+    border: 0px !important;    
+  }  
+  #card-1 {
+    margin-top: 55px;  
+    border-bottom: 1px solid rgba(33,33,33,0.15) !important;        
+  }  
+  #card-2, #card-3, #card-4 {
+    margin-top: 5px;  
+    border-bottom: 1px solid rgba(33,33,33,0.15) !important;     
+  }
 }
