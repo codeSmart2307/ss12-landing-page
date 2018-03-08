@@ -1,3 +1,7 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 /*=================
 * TIMER
 *=================*/
@@ -9,6 +13,12 @@
 
 .timertext{
   font-size:  6em;
+}
+
+@media only screen and (max-width: 900px) {
+  .timertext{
+    font-size:  4em;
+  } 
 }
 
 @media only screen and (max-width: 500px) {

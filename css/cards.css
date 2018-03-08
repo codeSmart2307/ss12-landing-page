@@ -3,9 +3,13 @@
   max-width: none !important;
 }
 
+.card-head {
+  margin-top: 3em;
+  text-align: left !important;
+}
+
 .pathways-btns {
-  margin-top: 6em !important;
-  margin: 0px auto;
+  margin: 4em auto !important;  
 }
 
 .btn-pathways {
@@ -35,7 +39,7 @@
   border: 0px !important;
 }
 .card-group {
-  margin-top: 1em !important;
+  margin-top: 0em !important;
 }
 .pathways-card {  
   border-radius: 0px !important;
@@ -45,15 +49,16 @@
   background-color: #F4F4F4 !important;
 }
 #card-1 {
-  margin-top: 150px;
+  margin-top: 0px;
 }
 #card-2 {
-  margin-top: 100px; 
+  margin-top: 75px; 
 }
 #card-3 {
-  margin-top: 50px; 
+  margin-top: 0px; 
 }
 #card-4 {
+  margin-top: 75px;
   border-right: 0px !important;
 }
 
@@ -62,6 +67,10 @@
     text-align: center !important; 
     margin: 0 auto !important;
   }  
+  .card-head {
+    margin-top: 2em;
+    text-align: center !important;
+  }
   .pathways-card {
     border: 0px !important;    
   }  
