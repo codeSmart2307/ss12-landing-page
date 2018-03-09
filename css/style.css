@@ -40,13 +40,24 @@
     border-bottom: 1px solid rgba(33,33,33,0.15) !important;     
   }
 }
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*=================
+* Stat
+*=================*/
+.stat{
+  margin-top: 49px !important; 
+  width: auto;
+}
+
 /*=================
 * TIMER
 *=================*/
 .counter{
   text-align: center;
   margin-top: 49px !important; 
-  z-index: 1 !important;
 }
 
 .countdown{
@@ -60,6 +71,12 @@
 
 .timertext{
   font-size:  6em;
+}
+
+@media only screen and (max-width: 900px) {
+  .timertext{
+    font-size:  4em;
+  } 
 }
 
 @media only screen and (max-width: 500px) {
