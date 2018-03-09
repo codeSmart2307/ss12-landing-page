@@ -8,8 +8,12 @@
 }
 
 .card-head {
-  margin-top: 2em;
+  margin-top: 1em; 
   text-align: center !important;
+}
+
+.lead {
+  margin-bottom: 2em;
 }
 
 .pathways {
@@ -35,31 +39,18 @@
 }
 
 .card-group {
-  margin-top: 0em !important;
+  margin-top: 2em !important;
 }
 
 .pathways-card {  
   border-radius: 0px !important;
   border-left: 0px !important;
   border-top: 0px !important;
-  border-bottom: 0px !important;    
+  border-bottom: 0px !important;  
   background-color: #F4F4F4 !important;
 }
 
-#card-1 {
-  margin-top: 0px;
-}
-
-#card-2 {
-  margin-top: 75px; 
-}
-
-#card-3 {
-  margin-top: 0px; 
-}
-
-#card-4 {
-  margin-top: 75px;
+#card-4 {  
   border-right: 0px !important;
 }
 
@@ -76,12 +67,19 @@
 @media only screen and (max-width: 500px) {
   .card-group {
     text-align: center !important; 
-    margin: 0 auto !important;
+    margin: 0em auto !important;
   }  
 
   .card-head {
-    margin-top: 2em;
+    margin-top: 1em !important;
+    font-size: 2rem !important;
+    font-weight: 250 !important;
+    line-height: 1 !important;
     text-align: center !important;
+  }
+
+  .lead {
+    font-size: 1rem !important;
   }
 
   .pathways-btns {
@@ -93,7 +91,7 @@
   } 
 
   #card-1 {
-    margin-top: 55px;  
+    margin-top: 2em;  
     border-bottom: 1px solid rgba(33,33,33,0.15) !important;        
   } 
 
