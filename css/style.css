@@ -1,10 +1,15 @@
-* {
-  font-family: 'Poppins', sans-serif;
-}
-
 /*=================
 * TIMER
 *=================*/
+.counter{
+  text-align: center;
+  margin-top: 49px !important; 
+  z-index: 1 !important;
+}
+
+.countdown{
+  text-align: center;
+}
 
 .clock{  
   margin: 8em auto;
@@ -22,7 +27,8 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .timertext{
-    font-size:  3em;
-  } 
+  .countdown{
+    text-align: center;
+    height:50px;
+  }
 }
