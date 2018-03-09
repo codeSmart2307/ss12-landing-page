@@ -1,0 +1,76 @@
+#navbar-ul {
+  margin: 0px 10px !important;
+  max-width: none !important;
+}
+
+.pathways-btns {
+  margin-top: 6em !important;
+  margin: 0px auto;
+}
+
+.btn-pathways {
+  background-color: #CCCCCC;
+  color: #666666;
+  font-size: 12pt;
+  text-align: center;
+  border: none;
+  width: 8em;
+  height: 2.3em;
+}
+.btn-pathways:hover {
+  background-color: #4B66A4;
+  color: #FFFFFF;
+}
+.btn-pathways:active {
+  background-color: #4B66A4 !important;
+  color: #FFFFFF !important;
+}
+.pathways {
+  background-color: #F4F4F4;  
+  padding-bottom: 4em; 
+}
+#ieee-card {
+  background-color: #F4F4F4;
+  border-radius: 0px !important;
+  border: 0px !important;
+}
+.card-group {
+  margin-top: 1em !important;
+}
+.pathways-card {  
+  border-radius: 0px !important;
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;    
+  background-color: #F4F4F4 !important;
+}
+#card-1 {
+  margin-top: 150px;
+}
+#card-2 {
+  margin-top: 100px; 
+}
+#card-3 {
+  margin-top: 50px; 
+}
+#card-4 {
+  border-right: 0px !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-group {
+    text-align: center !important; 
+    margin: 0 auto !important;
+  }  
+  .pathways-card {
+    border: 0px !important;    
+  }  
+  #card-1 {
+    margin-top: 55px;  
+    border-bottom: 1px solid rgba(33,33,33,0.15) !important;        
+  }  
+  #card-2, #card-3, #card-4 {
+    margin-top: 5px;  
+    border-bottom: 1px solid rgba(33,33,33,0.15) !important;     
+  }
+}

@@ -22,23 +22,6 @@
 
 
 
-/*=================
-* TIMER
-*=================*/
-/* .timer{
-  transform: translate(-50%, -50%);
-} */
-.clock{
-  margin: 0px auto !important;
-  width: auto;
-  
-}
-
-.timertext{
-  font-size:  5em;
-}
-
-
 
 @media only screen and (max-width: 500px) {
   .card-group {
@@ -55,5 +38,33 @@
   #card-2, #card-3, #card-4 {
     margin-top: 5px;  
     border-bottom: 1px solid rgba(33,33,33,0.15) !important;     
+  }
+}
+/*=================
+* TIMER
+*=================*/
+.counter{
+  text-align: center;
+  margin-top: 49px !important; 
+  z-index: 1 !important;
+}
+
+.countdown{
+  text-align: center;
+}
+
+.clock{  
+  margin: 8em auto;
+  text-align: center;
+}
+
+.timertext{
+  font-size:  6em;
+}
+
+@media only screen and (max-width: 500px) {
+  .countdown{
+    text-align: center;
+    height:50px;
   }
 }

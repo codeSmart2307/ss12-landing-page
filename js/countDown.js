@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var flip = new FlipClock({
     isCountdown: true,
-    startTime: '00:00:00:05',
+    startTime: '29:30:20:05',
     containerElement: $('.countdown'),
     face: {
       days: {
