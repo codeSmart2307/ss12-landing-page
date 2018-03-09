@@ -5,17 +5,21 @@ $(document).ready(function(){
   
     // When the SS12 button is clicked
     $('#ss12-btn').click(function(){ 
-        // $('#ieee-card').slideUp();
-        // $('#ss12-card-group').slideDown();
+        $('#know-more-btn').fadeIn();
+        $('#know-more-link').fadeIn();
         $('#ieee-card').fadeOut();
         $('#ss12-card-group').fadeIn();
+        $('#ss12-btn').addClass('placeholder');
+        $('#ieee-btn').removeClass('placeholder');
     });
   
     // When the IEEE button is clicked
     $('#ieee-btn').click(function(){ 
-        // $('#ss12-card-group').slideUp();
-        // $('#ieee-card').slideDown();
+        $('#know-more-btn').fadeOut();
+        $('#know-more-link').fadeOut();
         $('#ss12-card-group').fadeOut();
         $('#ieee-card').fadeIn();
+        $('#ieee-btn').addClass('placeholder');
+        $('#ss12-btn').removeClass('placeholder');
     }); 
   });
