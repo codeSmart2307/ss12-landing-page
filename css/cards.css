@@ -9,7 +9,7 @@
 }
 
 .pathways-btns {
-  margin: 4em auto !important;  
+  text-align: center;  
 }
 
 .btn-pathways {
@@ -19,7 +19,7 @@
   text-align: center;
   border: none;
   width: 8em;
-  height: 2.3em;
+  height: 2.3em;  
 }
 .btn-pathways:hover {
   background-color: #4B66A4;
@@ -33,7 +33,7 @@
   background-color: #F4F4F4;  
   padding-bottom: 4em; 
 }
-#ieee-card {
+.ieee-card {
   background-color: #F4F4F4;
   border-radius: 0px !important;
   border: 0px !important;
@@ -53,6 +53,9 @@
 #card-1 {
   margin-top: 0px;
 }
+#card-1:hover {
+  background-color: rgb(211, 196, 196) !important; 
+}
 #card-2 {
   margin-top: 75px; 
 }
@@ -62,6 +65,10 @@
 #card-4 {
   margin-top: 75px;
   border-right: 0px !important;
+}
+
+.know-more-btn {
+  margin: 4em auto;
 }
 
 @media only screen and (max-width: 500px) {
