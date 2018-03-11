@@ -7,14 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>IEEE SS12 | Age of Innovation</title>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Catousel CSS -->
+    <!-- Carousel CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
     <!-- TimeLine CSS -->
@@ -25,20 +20,17 @@
 
     <!-- Poppins Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
-    <!-- Cards Stylesheet -->
+    <!-- Cards CSS -->
     <link href="css/cards.css" rel="stylesheet">
-
-    <!-- Photo Gallery Stylesheet -->
+    <!-- Photo Gallery CSS -->
     <link rel="stylesheet" href="css/gallery.css">
 
+    <link rel="stylesheet" href="css/progressBar.css">
+    <link rel="stylesheet" href="css/countDown.css">
 </head>
 
 <body>
-
-
     <!-- DILLON START -->
-
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" role="navigation" style="background-color:white !important;">
         <a class="navbar-brand" href="#">
@@ -108,8 +100,6 @@
             </a>
         </div>
     </div>
-
-
     <!-- END BANNER -->
     <!-- DILLON END -->
 
@@ -117,13 +107,11 @@
     <!-- COMPETITION COUNTDOWN AND STATISTICS -->
     <section class="statistics" id="statistics">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-md-6 col-sm-1">
-                    <div class="clock">
-                        <span class="timertext" id="timer"></span>
-                    </div>
+            <div class="row ">
+                <div class="col-lg-12 col-md-6 col-sm-1">
                 </div>
             </div>
+        </div>
     </section>
     <!-- END COMPETITION COUNTDOWN AND STATISTICS -->
     <!-- SULEKA END -->
@@ -134,11 +122,15 @@
         <div class="container">
             <div class="row">
                 <h1 class="display-4 card-head">SS12 Project Competition and Maker Fair 2018</h1>
-                <p class="lead" style="text-align:center;">Education through Innovation: Innovate, Demonstrate, Educate</p>
-                <div class="btn-group pathways-btns" role="group" aria-label="IEEE and SS12 buttons">
-                    <button type="button" class="btn btn-secondary btn-pathways" id="ss12-btn">SS12</button>
-                    <button type="button" class="btn btn-secondary btn-pathways" id="ieee-btn">IEEE</button>
-                </div>
+                <p class="lead" style="width: 100%; text-align:center;">Education through Innovation: Innovate, Demonstrate, Educate</p>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link placeholder" id="ss12-btn" style="cursor: pointer;">SS12</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="ieee-btn" style="cursor: pointer;">IEEE</a>
+                    </li>
+                </ul>
                 <div class="card-group" id="ss12-card-group">
                     <div class="card pathways-card" id="card-1" style="width: 18rem;">
                         <div class="card-body">
@@ -152,7 +144,6 @@
                                 in Asia Pacific. The theme for this year is
                                 <strong>‘EMPATHY TO ENGINEERING: SOLUTIONS FOR MACRO ISSUES’</strong>. Students form Universities
                                 all over Asia and Middle East will be participating displaying their engineering skills.</p>
-                            <a href="#" class="card-link">Know More</a>
                         </div>
                     </div>
                     <div class="card pathways-card" id="card-2" style="width: 18rem;">
@@ -167,7 +158,6 @@
                                 in Asia Pacific. The theme for this year is
                                 <strong>‘EMPATHY TO ENGINEERING: SOLUTIONS FOR MACRO ISSUES’</strong>. Students form Universities
                                 all over Asia and Middle East will be participating displaying their engineering skills.</p>
-                            <a href="#" class="card-link">Know More</a>
                         </div>
                     </div>
                     <div class="card pathways-card" id="card-3" style="width: 18rem;">
@@ -182,7 +172,6 @@
                                 in Asia Pacific. The theme for this year is
                                 <strong>‘EMPATHY TO ENGINEERING: SOLUTIONS FOR MACRO ISSUES’</strong>. Students form Universities
                                 all over Asia and Middle East will be participating displaying their engineering skills.</p>
-                            <a href="#" class="card-link">Know More</a>
                         </div>
                     </div>
                     <div class="card pathways-card" id="card-4" style="width: 18rem;">
@@ -197,21 +186,31 @@
                                 in Asia Pacific. The theme for this year is
                                 <strong>‘EMPATHY TO ENGINEERING: SOLUTIONS FOR MACRO ISSUES’</strong>. Students form Universities
                                 all over Asia and Middle East will be participating displaying their engineering skills.</p>
-                            <a href="#" class="card-link">Know More</a>
                         </div>
                     </div>
                 </div>
+                <a href="#about" id="know-more-link" style="text-decoration: none; margin: 4em auto;">
+                    <div class="btn btn-secondary know-more-btn" id="know-more-btn">Know More</div>
+                </a>
                 <div class="card" id="ieee-card" style="width: 70rem;">
-                    <img class="card-img-top" src="images/ieeelogo.png" alt="IEEE Logo">
+                    <div class="container" style="padding: 3em;">
+                        <div class="row">
+                            <div class="col-lg-4"><p></p></div>
+                            <div class="col-lg-4">
+                                <img class="card-img-top" src="images/ieeelogo.png" alt="IEEE Logo">
+                            </div>
+                            <div class="col-lg-4"><p></p></div>
+                        </div>
+                    </div>
                     <div class="card-body" style="text-align: justify;">
-                        IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+                        <p>IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.
                         IEEE and its members inspire a global community to innovate for a better tomorrow through its highly-cited
                         publications, conferences, technology standards, and professional and educational activities. IEEE
                         is the trusted “voice” for engineering, computing and technology information around the globe. There
-                        are more than 420,000 IEEE members in more than 160 countries. IEEE publishes a third of the world’s
-                        technical literature in electrical engineering, computer science and electronics and is a leading
+                        are more than 420,000 IEEE members in more than 160 countries.</p> 
+                        <p>IEEE publishes a third of the world’s technical literature in electrical engineering, computer science and electronics and is a leading
                         developer of international standards that underpin many of today’s telecommunications, information
-                        technology and power generation products and services.
+                        technology and power generation products and services. </p>
                     </div>
                 </div>
             </div>
@@ -236,8 +235,8 @@
     <!-- DILLON START -->
     <!-- TIMELINE -->
     <div class="contianer-fluid timelineBack">
-
         <section class="timeline">
+            <h1 class="display-4" style="color: black; text-align: center; padding-top: 1em;">Timeline</h1>
             <ul>
                 <li>
                     <div>
@@ -335,7 +334,8 @@
     <!-- GALLERY -->
     <section class="gallery" id="gallery">
         <div class="container">
-            <div class="row">
+            <h1 class="display-4" style="color: black; text-align: center; padding-top: 1em; margin-bottom: 1em;">Gallery</h1>
+            <div class="row">                
                 <div id="photos">
                     <ul id="photo-gallery">
                         <li>
@@ -459,24 +459,18 @@
     <!-- END FOOTER -->
     <!-- DILLON END -->
 
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/cards.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cards.js"></script>
 
-        <!-- Photo-Gallery -->
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-        <script src="js/gallery.js"></script>
+    <!-- Photo-Gallery -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/gallery.js"></script>
 
-        <!-- Counter JS -->
-        <script src="js/counter.js"></script>
-
-
-
-
+    <!-- Counter JS -->
+    <script src="js/counter.js"></script>
 
 </body>
 
