@@ -10,6 +10,7 @@
 .card-head {
   margin-top: 1em; 
   text-align: center !important;
+  width: 100%;
 }
 
 .lead {
