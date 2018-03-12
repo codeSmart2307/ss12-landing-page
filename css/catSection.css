@@ -8,8 +8,25 @@
     height: 15rem;
 }
 
+.title-main{
+    font-family: poppins;
+    color: #FFFFFF;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title-sub{
+    font-family: poppins;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .cat-back{
     background-color: #4B66AF;
+    padding: 4rem;
 }
 
 .cat-back-color{

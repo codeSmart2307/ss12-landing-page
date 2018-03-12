@@ -9,26 +9,8 @@
     background-repeat: no-repeat; */
     /* background-size: cover; */
   color: white;
-  height: 25em !important;
- 
+  height: 25em !important; 
 }
-
-.background{
-  background-image: url("../images/background1.png");
-}
-
-.container-background {
-  background: url('../images/background1.png');
-}
-
-.fa-leaf,.fa-heartbeat{
-  font-size:10em !important ;
-  padding: 2em,2em,2em,2em !important;
-}
-.container{
-  
-}
-
 
 .project-areas{
   background-color:#4b66af;
