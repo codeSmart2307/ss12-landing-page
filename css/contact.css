@@ -9,11 +9,22 @@
 }
 
 .contact-deck {
-    margin: 2em auto;
+    margin: 2em auto;    
 }
 
 .contact-card {
-    border-radius: 1rem !important;
+    border-radius: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-right: 1px solid rgba(255,255,255,0.25) !important;
+    background-color: #4B66A4;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+#contact-card-3 {
+    border-right: 0 !important;
 }
 
 /* #contact-card-1, #contact-card-2, #contact-card-3 {
@@ -22,4 +33,22 @@
 
 .contact-icons {
     margin-right: 2em;
+}
+
+@media only screen and (max-width: 575px) {
+    .contact-card {
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-top: 0 !important;
+        border-bottom: 1px solid rgba(255,255,255,0.25) !important;
+        font-size: 0.9rem;
+    }
+
+    #contact-card-3 {
+        border-bottom: 0 !important;
+    }
+
+    .card-body {
+        text-align: left !important;
+    }
 }
