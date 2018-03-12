@@ -58,15 +58,30 @@
             <div class="my-2 my-lg-0">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="#carousel">HOME
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About US</a>
+                        <a class="nav-link" href="#statistics">STATISTICS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us / Help</a>
+                        <a class="nav-link" href="#pathways">PATHWAYS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project-areas">PROJECT AREAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">TIMELINE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#map-venue">FIND US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -76,31 +91,33 @@
     <!-- END NAVIGATION -->
 
     <!-- BANNER -->
-    <div class="container-fluid customCarousel">
-        <div id="customCar" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#customCar" data-slide-to="0" class="active"></li>
-                <li data-target="#customCar" data-slide-to="1"></li>
-            </ol>
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/1.jpg" alt="Los Angeles" width="100%">
+    <section class="carousel" id="carousel">
+        <div class="container-fluid customCarousel">
+            <div id="customCar" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#customCar" data-slide-to="0" class="active"></li>
+                    <li data-target="#customCar" data-slide-to="1"></li>
+                </ol>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/1.jpg" alt="Los Angeles" width="100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/2.jpg" alt="Chicago" width="100%">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/2.jpg" alt="Chicago" width="100%">
-                </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#customCar" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#customCar" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#customCar" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#customCar" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
         </div>
-    </div>
+    </section>
     <!-- END BANNER -->
     <!-- DILLON END -->
 
@@ -217,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#about" id="know-more-link" style="text-decoration: none; margin: 4em auto;">
+                <a href="about.html" id="know-more-link" style="text-decoration: none; margin: 4em auto;">
                     <div class="btn btn-secondary know-more-btn" id="know-more-btn">Know More</div>
                 </a>
                 <div class="card" id="ieee-card" style="width: 70rem;">
@@ -304,7 +321,7 @@
     <!-- DILLON START -->
     <!-- TIMELINE -->
     <div class="container-fluid timelineBack">
-        <section class="timeline">
+        <section class="timeline" id="timeline">
             <h2 class="display-5" style="color: black; text-align: center; padding-top: 1em;">Timeline</h2>
             <ul>
                 <li>
@@ -522,7 +539,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 contact-responsive">
-                    <h2 class="display-5" style="color: #FFFFFF; text-align: center; padding-top: 1em; margin-bottom: 1em;">Help Line Contacts</h2>
+                    <h2 class="display-5 title-main">HELP LINE CONTACTS</h2>
                     <div class="card-group contact-deck">
                         <div class="card contact-card" id="contact-card-1">
                             <div class="card-body contact-card-body">
@@ -665,13 +682,13 @@
     <script src="js/jquery.countdown.js"></script>
     <script src="js/jquery.countdown.min.js"></script>
 
-    <script type="text/javascript">                      
+    <script type="text/javascript">
         $('#clock').countdown('2020/10/10', function (event) {
-            var $this = $(this).html(event.strftime(''
-                + '<span class="numText">%d</span> days '
-                + '<span class="numText">%H</span> hr '
-                + '<span class="numText">%M</span> min '
-                + '<span class="numText">%S</span> sec'));
+            var $this = $(this).html(event.strftime('' +
+                '<span class="numText">%d</span> days ' +
+                '<span class="numText">%H</span> hr ' +
+                '<span class="numText">%M</span> min ' +
+                '<span class="numText">%S</span> sec'));
         });
     </script>
 
