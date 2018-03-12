@@ -51,6 +51,10 @@
   background-color: #F4F4F4 !important;
 }
 
+.pathways-card-text {
+  text-align: justify;
+}
+
 #card-4 {  
   border-right: 0px !important;
 }
@@ -85,7 +89,7 @@
 
   .pathways-card {
     border: 0px !important;    
-  } 
+  }   
 
   #card-1 {
     margin-top: 2em;  
