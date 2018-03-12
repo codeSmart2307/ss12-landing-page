@@ -13,6 +13,14 @@
  
 }
 
+.background{
+  background-image: url("../images/background1.png");
+}
+
+.container-background {
+  background: url('../images/background1.png');
+}
+
 .fa-leaf,.fa-heartbeat{
   font-size:10em !important ;
   padding: 2em,2em,2em,2em !important;
