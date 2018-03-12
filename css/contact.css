@@ -27,10 +27,6 @@
     border-right: 0 !important;
 }
 
-/* #contact-card-1, #contact-card-2, #contact-card-3 {
-    display: none;
-} */
-
 .contact-icons {
     margin-right: 2em;
 }
@@ -50,5 +46,21 @@
 
     .contact-card-body {
         text-align: left !important;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    .contact-card-body {
+        text-align: center !important;
+    }
+
+    .contact-icons {
+        margin-right: 0em;
+        display: inline !important;
+    }
+
+    .text-inline img::after {
+        content: "\A" !important;
+        white-space: pre !important;
     }
 }
