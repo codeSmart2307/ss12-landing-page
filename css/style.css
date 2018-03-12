@@ -1,34 +1,113 @@
-/*=================
-* TIMER
-*=================*/
-.counter{
-  text-align: center;
-  margin-top: 49px !important; 
-  z-index: 1 !important;
+.statistics{
+  /* background-image: url("../images/background1.png"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: auto; */
+  /* background-size: 1000px 1000px; */
+  /* #4b66af; */ 
+  /* background-color:#4b66af;  */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+  color: white;
+  height: 25em !important;
+ 
 }
 
-.countdown{
-  text-align: center;
+.container{
+  
 }
 
-.clock{  
-  margin: 8em auto;
-  text-align: center;
+
+.project-areas{
+  background-color:#4b66af;
+  color: white;
+  height: 60em !important;
 }
 
-.timertext{
-  font-size:  6em;
+.stat{
+  margin: 7em auto;
 }
 
-@media only screen and (max-width: 900px) {
-  .timertext{
-    font-size:  4em;
-  } 
+.statImg{
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  
+}
+
+.innerImg{
+  width: 13em;
+  height: 13em;
+}
+
+.counter {
+  height: 18em !important;
+  background-color: #4b66af;
+  color: white;
+}
+
+#clock{
+  margin: 2em auto;
+  font-size: 0.8em;
+
+}
+
+.numText{
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.statText{
+  margin: 2em auto;
+  font-size: 3em;
+}
+
+.projectText1{
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+.projectText2{
+  margin: 0em auto;
+  font-size: 2.4em;
 }
 
 @media only screen and (max-width: 500px) {
-  .countdown{
-    text-align: center;
-    height:50px;
+  #clock{
+    margin: 1em auto;
+    font-size: 0.4em;
   }
+
+  .counter {
+    height: 10em !important;
+  }
+
+  .numText{
+    font-size: 1em;
+    font-weight: 400;
+  }
+
+  .statImg{
+    
+  }
+
+  .innerImg{
+    padding: 0.8em 0.8em 0.8em 0.8em;
+    width: 10em;
+    height: 10em;
+  }
+
+  .stat{
+    margin: 4em auto;
+  }
+
+  .statistics{
+    background-color: #4b66af;
+    color: white;
+    height: 40em !important;
+  }
+
+  
+
 }
