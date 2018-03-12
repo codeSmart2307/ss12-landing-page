@@ -16,6 +16,10 @@
     border-radius: 1rem !important;
 }
 
+/* #contact-card-1, #contact-card-2, #contact-card-3 {
+    display: none;
+} */
+
 .contact-icons {
     margin-right: 2em;
 }
