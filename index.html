@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,7 +8,7 @@
     <title>IEEE SS12 | Age of Innovation</title>
 
     <!-- icons-->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <!-- Icons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <!--importing Font Awesome-->
@@ -24,52 +25,52 @@
     <link href="css/cards.css" rel="stylesheet">
     <!-- TimeLine CSS -->
     <link rel="stylesheet" href="css/timeline.css">
+    <!-- Nav CSS -->
+    <link rel="stylesheet" href="css/nav.css">
     <!-- Photo Gallery CSS -->
     <link rel="stylesheet" href="css/gallery.css">
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css">
     <!-- Map CSS -->
     <link rel="stylesheet" href="css/map.css">
     <!-- Contact CSS -->
     <link rel="stylesheet" href="css/contact.css">
+    <!-- Stats CSS -->
+    <link rel="stylesheet" href="css/stats.css">
+    <!-- catSection CSS -->
+    <link rel="stylesheet" href="css/catSection.css">
     <!-- Footer CSS -->
     <link rel="stylesheet" href="css/footer.css">
 </head>
+
 <body>
     <!-- DILLON START -->
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" role="navigation" style="background-color:white !important;">
-        <a class="navbar-brand" href="#">
-            <img src="images/##" alt="Website Logo" height="40px">
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+            aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ml-auto" id="navbar-ul">
-                <li class="nav-item mr-5">
-                    <a class="nav-link active" href="#header">HOME
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#statistics">STATISTICS</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#pathways">PATHWAYS</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#project-areas">PROJECT CATEGORIES</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#timeline">TIMELINE</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#gallery">GALLERY</a>
-                </li>
-                <li class="nav-item mr-5">
-                    <a class="nav-link" href="#contact">CONTACT US</a>
-                </li>
-            </ul>
+        <a class="navbar-brand" href="#">IEEE SS12</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="navbar-nav mr-auto mt-2 mt-lg-0"></div>
+
+            <div class="my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us / Help</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </nav>
     <!-- END NAVIGATION -->
@@ -104,16 +105,22 @@
     <!-- DILLON END -->
 
     <section class="statistics" id="statistics">
-        <div class="container" >
+        <div class="container-fluid statsBack">
             <!-- <div class="row ">
                 <h1 class="statText display-4">Statistics</h1>
             </div> -->
             <div class="row">
                 <!--  stats  -->
                 <div class="stat">
-                   <span class="statImg"><img src="images/stat1.png" class="innerImg"></span> 
-                   <span class="statImg"><img src="images/stat2.png" class="innerImg"></span> 
-                   <span class="statImg"><img src="images/stat3.png" class="innerImg"></span> 
+                    <span class="statImg">
+                        <img src="images/stat1.png" class="innerImg">
+                    </span>
+                    <span class="statImg">
+                        <img src="images/stat2.png" class="innerImg">
+                    </span>
+                    <span class="statImg">
+                        <img src="images/stat3.png" class="innerImg">
+                    </span>
                 </div>
             </div>
         </div>
@@ -123,13 +130,16 @@
     <!-- COMPETITION COUNTDOWN AND STATISTICS -->
     <section class="counter" id="counter">
         <div class="container">
+            <div>
+                <p class="countdown-title">COUNT DOWN</p>
+            </div>
             <div class="row display-4">
                 <div id="clock"></div>
-            <div class="row ">
-                <div class="col-lg-12 col-md-6 col-sm-1">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-6 col-sm-1">
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- END COMPETITION COUNTDOWN AND STATISTICS -->
     <!-- SULEKA END -->
@@ -244,21 +254,50 @@
 
     <!-- SULEKA START -->
     <!-- PROJECT AREAS -->
-    <section class="project-areas" id="project-areas">
+    <section class="project-areas cat-back-color" id="project-areas">
         <div class="container-fluid">
-            <div class="row">           
-                 <h1 class="projectText1 display-4">Project Areas</h1>
+            <div class="row">
+                <h1 class="projectText1 display-4">Project Areas</h1>
             </div>
-            <div class="row">           
-                <h1 class="projectText2 display-4">Mobile Apps | Computer Based Solutions | IoT</h1>   
+            <div class="row">
+                <h3 class="sub-heading">Mobile Apps | Computer Based Solutions | IoT</h3>
             </div>
-            <div class="row">  
-            <img src="images/background1.png">
+
+            <div class="container">
+                <div class="col-lg-4 col-sm-6 cat-img">
+                    <div class="text-center">
+                        <img src="images/cat/cat-01.png" class="cat-size-img" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 cat-img">
+                    <div class="text-center">
+                        <img src="images/cat/cat-02.png" class="cat-size-img" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 cat-img">
+                    <div class="text-center">
+                        <img src="images/cat/cat-03.png" class="cat-size-img" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 cat-img">
+                    <div class="text-center">
+                        <img src="images/cat/cat-04.png" class="cat-size-img" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 cat-img">
+                    <div class="text-center">
+                        <img src="images/cat/cat-05.png" class="cat-size-img" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 cat-img">
+                    <div class="text-center">
+                        <img src="images/cat/cat-06.png" class="cat-size-img" alt="...">
+                    </div>
+                </div>
+            </div>
+
         </div>
-            <div class="row">           
-                    <i class="fas fa-leaf"></i>
-                    <i class="fas fa-heartbeat"></i>
-            </div>
+
         </div>
     </section>
     <!-- END PROJECT AREAS -->
@@ -418,7 +457,7 @@
     <section class="map-venue" id="map-venue">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-9 map-responsive">                    
+                <div class="col-lg-9 map-responsive">
                     <iframe class="map-iframe" width="600" height="500" frameborder="0" style="border:1px" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDdytdiU_cebJf2rIXv0lXv6Oh6k7DT1AQ
                     &q=Colombo,Sri+Lanka" allowfullscreen>
                     </iframe>
@@ -587,8 +626,9 @@
                 + '<span class="numText">%S</span> sec'));
         });
     </script>
-      
+
     <!-- Contact JS -->
     <script src="js/contact.js"></script>
 </body>
+
 </html>
