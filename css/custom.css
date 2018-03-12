@@ -30,4 +30,8 @@ body{
     .d-block {
         height: 250px !important;
     }
+
+    .countdown-title{
+       padding-top: 1.5em;
+    }
 }
