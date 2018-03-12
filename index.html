@@ -5,6 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>IEEE SS12 | Age of Innovation</title>
+
+    <!-- icons-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <!--importing Font Awesome-->
     <!-- Bootstrap CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Poppins Font -->
@@ -20,6 +26,7 @@
     <link rel="stylesheet" href="css/timeline.css">
     <!-- Photo Gallery CSS -->
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/style.css">    
     <!-- Map CSS -->
     <link rel="stylesheet" href="css/map.css">
     <!-- Contact CSS -->
@@ -96,10 +103,28 @@
     <!-- END BANNER -->
     <!-- DILLON END -->
 
+    <section class="statistics" id="statistics">
+        <div class="container" >
+            <!-- <div class="row ">
+                <h1 class="statText display-4">Statistics</h1>
+            </div> -->
+            <div class="row">
+                <!--  stats  -->
+                <div class="stat">
+                   <span class="statImg"><img src="images/stat1.png" class="innerImg"></span> 
+                   <span class="statImg"><img src="images/stat2.png" class="innerImg"></span> 
+                   <span class="statImg"><img src="images/stat3.png" class="innerImg"></span> 
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- SULEKA START -->
     <!-- COMPETITION COUNTDOWN AND STATISTICS -->
-    <section class="statistics" id="statistics">
+    <section class="counter" id="counter">
         <div class="container">
+            <div class="row display-4">
+                <div id="clock"></div>
             <div class="row ">
                 <div class="col-lg-12 col-md-6 col-sm-1">
                 </div>
@@ -220,10 +245,19 @@
     <!-- SULEKA START -->
     <!-- PROJECT AREAS -->
     <section class="project-areas" id="project-areas">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-1">
-                </div>
+        <div class="container-fluid">
+            <div class="row">           
+                 <h1 class="projectText1 display-4">Project Areas</h1>
+            </div>
+            <div class="row">           
+                <h1 class="projectText2 display-4">Mobile Apps | Computer Based Solutions | IoT</h1>   
+            </div>
+            <div class="row">  
+            <img src="images/background1.png">
+        </div>
+            <div class="row">           
+                    <i class="fas fa-leaf"></i>
+                    <i class="fas fa-heartbeat"></i>
             </div>
         </div>
     </section>
@@ -373,7 +407,6 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </section>
@@ -542,9 +575,20 @@
 
     <!-- Timeline JS -->
     <script src="js/timeline.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
 
+    <script type="text/javascript">                      
+        $('#clock').countdown('2020/10/10', function (event) {
+            var $this = $(this).html(event.strftime(''
+                + '<span class="numText">%d</span> days '
+                + '<span class="numText">%H</span> hr '
+                + '<span class="numText">%M</span> min '
+                + '<span class="numText">%S</span> sec'));
+        });
+    </script>
+      
     <!-- Contact JS -->
     <script src="js/contact.js"></script>
-
 </body>
 </html>
