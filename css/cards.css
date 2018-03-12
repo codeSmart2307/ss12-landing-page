@@ -10,6 +10,7 @@
 .card-head {
   margin-top: 1em; 
   text-align: center !important;
+  width: 100%;
 }
 
 .lead {
@@ -80,10 +81,6 @@
 
   .lead {
     font-size: 1rem !important;
-  }
-
-  .pathways-btns {
-    margin-left: 17vw !important;
   }
 
   .pathways-card {
