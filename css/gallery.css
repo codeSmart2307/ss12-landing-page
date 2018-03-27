@@ -17,7 +17,7 @@
 }
 
 .gallery-title{
-  background-color: #4B66AF;
+  background-color: #00415b;
   padding: 4rem;
   color: #F4F4F4;
 }
@@ -27,4 +27,8 @@
   padding: 0 !important;
   margin: 0 !important;
   text-align: center !important;
+}
+
+.nav-pill-list{
+  padding-left: 2.7rem;
 }
