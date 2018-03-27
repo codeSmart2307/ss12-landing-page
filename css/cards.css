@@ -35,8 +35,16 @@
 }
 
 .placeholder {
-  background-color: #4B66A4;
+  background-color: #00C588;
   color: #FFFFFF !important;
+}
+
+.nav-item:hover {
+  background-color: #00C588;
+}
+
+.nav-item:active {
+  background-color: #00C588;
 }
 
 .nav {
