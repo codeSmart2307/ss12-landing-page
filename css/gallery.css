@@ -21,3 +21,10 @@
   padding: 4rem;
   color: #F4F4F4;
 }
+
+.tabs-content-gallery {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center !important;
+}
